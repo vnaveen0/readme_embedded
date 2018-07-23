@@ -4,6 +4,7 @@ First of all Download stuff and look at the following youtube videos:
 ```
 https://os.mbed.com/platforms/ST-Nucleo-L496ZG/
 https://www.youtube.com/watch?v=BJdXR0Al6os
+https://www.youtube.com/watch?v=szMGedsp9jc&t=117s
 ```
 
 Need to Install STM32CubeMx. In CubeMx start with new project, select the board you are using and generate source code from user settings.

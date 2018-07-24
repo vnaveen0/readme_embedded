@@ -6,19 +6,12 @@ http://caffe.berkeleyvision.org/installation.html#prerequisites
 ```
 For Ubuntu>17.4 only:
 ```
-# add openblas
-sudo apt-get install libopenblas-dev
-
-# Add multiverse in source.list
-echo 'deb http://archive.ubuntu.com/ubuntu trusty main restricted universe multiverse' >>/tmp/multiverse.list
-sudo cp /tmp/multiverse.list /etc/apt/sources.list.d/
-rm /tmp/multiverse.list
-
-# Add boost
-sudo apt-get install libboost-all-dev
-
 # Install Caffe
 sudo apt install caffe-cpu
+pycaffe is installed in python3
+$ python3
+>> import caffe
+
 ```
 
 For Ubuntu14 
